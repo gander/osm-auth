@@ -31,7 +31,7 @@
     "build:cjs": "esbuild ./src/osm-auth.mjs --platform=node --format=cjs --sourcemap --outfile=./dist/osm-auth.cjs",
     "clean": "shx rm -rf dist",
     "lint": "eslint src/osm-auth.mjs test/*.js",
-    "start": "npx http-server ./ -c-1",
+    "start": "npx http-server ./public -c-1",
     "test": "run-s build test:node",
     "test:node": "c8 node --test test/"
   },
