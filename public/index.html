@@ -108,7 +108,7 @@
   </div>
   <footer>
     <a href="https://github.com/osmlab/osm-auth">
-      <img width="20" height="20" src="docs/GitHub-Mark-32px.png"/>osm-auth</a> is a minimal example of authenticating and interacting with the
+      osm-auth</a> is a minimal example of authenticating and interacting with the
     <a href="http://www.openstreetmap.org/">OpenStreetMap API</a> over OAuth 2.0.
   </footer>
 
@@ -116,7 +116,8 @@
   <script>
     var redirectPath = window.location.origin + window.location.pathname;
     var auth = osmAuth.osmAuth({
-      client_id: "JWXSAzNp64sIRMStTnkhMRaMxSR964V4sFgn3KUZNTA",
+      client_id: "om0c_E4h1li4FzKjeeeUS61nv9wofY5nvoaawW_DIZc",
+      url: "https://master.apis.dev.openstreetmap.org",
       scope: "read_prefs",
       redirect_uri: redirectPath,
       singlepage: true
